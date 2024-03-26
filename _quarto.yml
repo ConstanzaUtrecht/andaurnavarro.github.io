@@ -3,17 +3,21 @@ project:
   output-dir: docs
 
 website:
+  title: "Constanza Andaur Navarro"
   navbar:
+    left: 
+      - href: index.qmd
     background: primary
     search: true
     right:
       - text: "More" 
         menu: 
+          - publications.qmd
           - talks.qmd
-          - about.qmd
+          - teaching.qmd
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
