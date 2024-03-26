@@ -6,7 +6,7 @@ website:
   title: "Constanza Andaur Navarro"
   navbar:
     left: 
-      - href: index.qmd
+      - href: about.qmd
     background: primary
     search: true
     right:
@@ -15,7 +15,7 @@ website:
           - publications.qmd
           - talks.qmd
           - teaching.qmd
-          - about.qmd
+
 format:
   html:
     theme: lux
